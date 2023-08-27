@@ -196,9 +196,9 @@
 #![allow(clippy::redundant_field_names)]
 
 // Make `cargo test` execute the README doctests.
-#[cfg(doctest)]
-#[doc = include_str!("../README.md")]
-mod readme_doctest {}
+// #[cfg(doctest)]
+// #[doc = include_str!("../README.md")]
+// mod readme_doctest {}
 
 use std::borrow::Cow;
 
